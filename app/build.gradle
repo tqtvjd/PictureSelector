@@ -1,18 +1,19 @@
 apply plugin: 'com.android.application'
 apply plugin: 'org.jetbrains.kotlin.android'
 
+apply from: rootProject.file('config.gradle')
+
 static def releaseTime() {
     def date = new Date()
     return date.format("yyyy-MM-dd") + "_" + date.format("hhmmss")
 }
 
 android {
-    compileSdkVersion 33
-
+    compileSdk 33
     defaultConfig {
         applicationId "com.luck.pictureselector"
-        minSdkVersion 21
-        targetSdkVersion 33
+        minSdk 21
+        targetSdk 33
         versionCode cfgs.versionCode
         versionName cfgs.versionName
     }
@@ -57,10 +58,6 @@ android {
         main {
             jniLibs.srcDirs = ['libs']
         }
-    }
-
-    dexOptions {
-        javaMaxHeapSize "4g"
     }
 
     lintOptions {

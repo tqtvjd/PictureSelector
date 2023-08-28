@@ -1,0 +1,10 @@
+<resources>
+    <string name="ucrop_label_original">ต้นฉบับ</string>
+    <string name="ucrop_label_edit_photo">แก้ไขรูป</string>
+    <string name="ucrop_menu_crop">ครอบตัด</string>
+    <string name="ucrop_rotate">หมุน</string>
+    <string name="ucrop_scale">มาตราส่วน</string>
+    <string name="ucrop_crop">ครอบตัด</string>
+    <string name="ucrop_gif_tag">gif</string>
+    <string name="ucrop_not_crop">ไม่รองรับประเภทการครอบตัดนี้</string>
+</resources>

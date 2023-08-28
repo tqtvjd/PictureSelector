@@ -1,3 +1,22 @@
-include ':app', ':selector',':ucrop',':compress'
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    //repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
+}
+rootProject.name = "PictureSelector"
+include ':app'
+include ':selector'
+include ':ucrop'
+include ':compress'
 include ':camerax'
 include ':ijkplayer-java'

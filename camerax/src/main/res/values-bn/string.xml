@@ -1,0 +1,6 @@
+<resources>
+    <string name="picture_recording_time_is_short">রেকর্ডিং সময় অত্যন্ত ক্ষুদ্র</string>
+    <string name="picture_photo_camera">ছবি, ছবি</string>
+    <string name="picture_photo_pictures">ছবি তুলুন</string>
+    <string name="picture_photo_recording">দীর্ঘ চাপ ক্যামেরা</string>
+</resources>

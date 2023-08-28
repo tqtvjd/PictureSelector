@@ -1,0 +1,10 @@
+<resources>
+    <string name="ucrop_label_original">اصلی</string>
+    <string name="ucrop_label_edit_photo">ویرایش عکس</string>
+    <string name="ucrop_menu_crop">برش</string>
+    <string name="ucrop_rotate">چرخاندن</string>
+    <string name="ucrop_scale">مقیاس</string>
+    <string name="ucrop_crop">برش</string>
+    <string name="ucrop_gif_tag">گیف</string>
+    <string name="ucrop_not_crop">نوع برش پشتیبانی نمی‌شود</string>
+</resources>

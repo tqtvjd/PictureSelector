@@ -1,0 +1,10 @@
+<resources>
+    <string name="ucrop_label_original">মূল</string>
+    <string name="ucrop_label_edit_photo">ফটো সম্পাদনা করুন</string>
+    <string name="ucrop_menu_crop">ক্রপ</string>
+    <string name="ucrop_rotate">ঘুরান</string>
+    <string name="ucrop_scale">স্কেল</string>
+    <string name="ucrop_crop">ক্রপ</string>
+    <string name="ucrop_gif_tag">গিফ</string>
+    <string name="ucrop_not_crop">ক্রপ প্রকারটি সমর্থিত নয়</string>
+</resources>
